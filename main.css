@@ -2,7 +2,9 @@
 /* CSS Document */
 body {
   background-image: url("images/san diego skyline.jpeg");
+  /* Picture source: https://www.istockphoto.com/photos/san-diego */
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 .container{
@@ -35,6 +37,7 @@ body {
   background-position: center;
   background-image: url("images/San Diego logo 2.png");
   background-repeat: no-repeat;
+  padding-bottom: 95px;
 }
 .navbar1 {
   display: flex;
@@ -91,9 +94,9 @@ li a {
   display: block;
   color: #4886D9;
   padding: 8px 16px;
-font-family: 'Pacifico';
+font-family: 'Montserrat';
 font-size: 25px;
-text-align: center;
+text-align: left;
 }
 li a:hover {
   background-color: #F3C231;
@@ -120,4 +123,9 @@ h2 {
 .navbar2 a:hover {
   background-color: #CECABF;
   color: #64B0F3;
+}
+img {
+  height: 408px;
+  width: 612px;
+  align-content: center;
 }
