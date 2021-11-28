@@ -128,4 +128,17 @@ img {
   height: 408px;
   width: 612px;
   align-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+button {
+  background-color: #4886D9;
+  padding: 14px 25px;
+  text-align: center;
+  font-family: 'Montserrat';
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  font-family: 'Montserrat'
 }
