@@ -145,7 +145,21 @@ a {
 
 /* Responsive layout- makes a one column layout instead of a two-column layout */
 @media screen and (max-width: 700px) {
-  .row, .navbar {
+  .navbar1, .navbar2 {
     flex-direction: column;
   }
+  .navbar1 a {
+    flex-direction: column;
+  }
+  .navbar2 a {
+    flex-direction: column;
+  }
+  img {
+  width: 100%;
+  height: auto;
+}
+ body {
+  background-size: cover;
+}
+
 }
