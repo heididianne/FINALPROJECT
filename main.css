@@ -142,3 +142,10 @@ a {
   text-decoration: none;
   font-family: 'Montserrat'
 }
+
+/* Responsive layout- makes a one column layout instead of a two-column layout */
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
